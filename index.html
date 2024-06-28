@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD em JavaScript</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD em JavaScript</h1>
+        <form id="form">
+            <input type="hidden" id="index" value="">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" placeholder="Digite o nome" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite o email" required>
+            </div>
+            <button type="submit">Salvar</button>
+        </form>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table><br>
+       
+       <!-- Logo marca --> 
+      <div class="logo">        
+        <img style=" width:75px;" src="img/logo1.jpg">
+      </div>
+        
+    </div>
+    <script src="crud_js/script.js"></script>
+</body>
+</html>
